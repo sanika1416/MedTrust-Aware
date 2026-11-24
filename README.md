@@ -2,6 +2,8 @@
 
 **Trust-aware, explainable chest X-ray analysis research prototype**
 
+[GitHub repository](https://github.com/sanika1416/MedTrust-Aware)
+
 MedTrust combines a multi-label chest X-ray classifier with analysis of
 calibration, uncertainty, image quality, out-of-distribution (OOD) risk, and
 similar reference cases. It returns an analysis through a Python HTTP API and a
