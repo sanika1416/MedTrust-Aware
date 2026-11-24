@@ -1,0 +1,34 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python environments, bytecode, and test caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local medical data, derived artifacts, and model weights
+/checkpoints/
+/outputs/
+/reference_images/
+/test_images/
+/frontend/dist/reference_images/
+/backend/*.db
+/backend/*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.pt
+*.pth
+*.npz
+
+# Local third-party executable
+/cloudflared.exe
+
+# Legacy setup notes contain machine-specific paths and superseded commands.
+/setup_steps.txt
